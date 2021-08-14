@@ -1,0 +1,179 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  /* color: rgb(54, 52, 52); */
+}
+
+body {
+  background-color: rgb(252, 252, 252);
+  /*  */
+}
+.container {
+  background-color: rgb(106, 104, 207);
+  margin: 20px auto;
+  width: 95vw;
+  height: 95vh;
+  border-radius: 20px;
+}
+.both__div {
+  display: flex;
+}
+.logo {
+  cursor: pointer;
+  height: 20vh;
+}
+.logo img {
+  margin-left: 7px;
+  height: 50px;
+}
+.date__time {
+  height: 15vh;
+}
+.date__time p {
+  color: blueviolet;
+  font-weight: 500;
+}
+.left__aside__header {
+  background-color: white;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-left: 1px solid rgb(156, 148, 148);
+  display: flex;
+  width: fit-content;
+  flex-direction: column;
+  width: 5%;
+}
+.left__aside__header ul {
+  flex-direction: column;
+
+  height: 60vh;
+  list-style: none;
+  display: flex;
+}
+.left__aside__header ul li {
+  padding: 4px;
+  box-sizing: border-box;
+  margin: 20px;
+}
+#das a {
+  color: blueviolet;
+}
+.content__div {
+  width: 95%;
+}
+/* item__left */
+.row__navbar {
+  display: flex;
+}
+.left__item {
+  width: 70%;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 4%;
+  margin-top: 3%;
+}
+.Date__item {
+  color: rgb(192, 188, 188);
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+#today {
+  color: white !important;
+  border-bottom: 2px solid black;
+}
+.fa-ellipsis-h {
+  cursor: pointer;
+  color: white !important;
+  /* background-color: rgb(117, 115, 115); */
+  border-radius: 30px;
+}
+.right__item {
+  width: 20%;
+  display: flex;
+}
+
+.admin__image {
+  margin-top: 10%;
+  margin-left: 10%;
+}
+.admin__image img {
+  height: 40px;
+  border-radius: 6px;
+}
+.divider {
+  width: 5%;
+  height: 1px;
+  background-color: white;
+  margin: auto;
+}
+
+/* new div start related webdevlopment */
+.tag__web__h3 {
+  color: rgb(248, 245, 245);
+  font-size: 30px;
+  margin: 10px;
+  font-weight: 700;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.card__related__work {
+  display: flex;
+  flex-wrap: wrap;
+  /* height: 75vh; */
+  overflow-y: auto;
+  /* border: 2px solid red; */
+}
+.min__card {
+  background-color: white;
+  width: 22%;
+  height: 10vh;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.line__color {
+  color: white;
+  width: 10%;
+  height: 10vh;
+  background-color: rgb(30, 240, 111);
+}
+.tick {
+  color: rgb(30, 240, 111);
+  background-color: rgb(218, 213, 213);
+  height: 4vh;
+  width: 4vh;
+  margin-top: 10px;
+  margin-left: -10px;
+  text-align: center;
+  border-radius: 40px;
+}
+.content__cart {
+  margin-left: 10px;
+}
+.project__heading {
+  width: 100%;
+  white-space: wrap;
+}
+.project__heading p {
+  font-size: 25px;
+  color: rgb(30, 240, 111);
+}
+.code {
+  cursor: pointer;
+  background-color: rgb(30, 240, 111);
+  width: 40%;
+  margin-top: 5px;
+  border-radius: 3px;
+}
+.code p {
+  text-align: center;
+}
+.code p a {
+  text-align: center;
+  color: white;
+}

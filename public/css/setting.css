@@ -1,0 +1,182 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  /* color: rgb(54, 52, 52); */
+}
+
+body {
+  background-color: rgb(252, 252, 252);
+  /*  */
+}
+.container {
+  background-color: rgb(106, 104, 207);
+  margin: 20px auto;
+  width: 95vw;
+  height: 95vh;
+  border-radius: 20px;
+}
+.both__div {
+  display: flex;
+}
+.logo {
+  cursor: pointer;
+  height: 20vh;
+}
+.logo img {
+  margin-left: 7px;
+  height: 50px;
+}
+.date__time {
+  height: 15vh;
+}
+.date__time p {
+  color: blueviolet;
+  font-weight: 500;
+}
+.left__aside__header {
+  background-color: white;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-left: 1px solid rgb(156, 148, 148);
+  display: flex;
+  width: fit-content;
+  flex-direction: column;
+  width: 5%;
+}
+.left__aside__header ul {
+  flex-direction: column;
+
+  height: 60vh;
+  list-style: none;
+  display: flex;
+}
+.left__aside__header ul li {
+  padding: 4px;
+  box-sizing: border-box;
+  margin: 20px;
+}
+#das a {
+  color: blueviolet;
+}
+.content__div {
+  width: 95%;
+}
+/* item__left */
+.row__navbar {
+  display: flex;
+}
+.left__item {
+  width: 70%;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 4%;
+  margin-top: 3%;
+}
+.Date__item {
+  color: rgb(192, 188, 188);
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+#today {
+  color: white !important;
+  border-bottom: 2px solid black;
+}
+.fa-ellipsis-h {
+  cursor: pointer;
+  color: white !important;
+  /* background-color: rgb(117, 115, 115); */
+  border-radius: 30px;
+}
+.right__item {
+  width: 20%;
+  display: flex;
+}
+
+.admin__image {
+  margin-top: 10%;
+  margin-left: 10%;
+}
+.admin__image img {
+  height: 40px;
+  border-radius: 6px;
+}
+.divider {
+  width: 5%;
+  height: 1px;
+  background-color: white;
+  margin: auto;
+}
+
+/* new div start related webdevlopment */
+.tag__web__h3 {
+  color: rgb(248, 245, 245);
+  font-size: 30px;
+  margin: 10px;
+  font-weight: 700;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#form {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  flex-direction: column;
+}
+input {
+  margin: 10px auto;
+  width: 50%;
+  font-size: 20px;
+  height: 1.3em;
+  background: transparent;
+}
+::placeholder {
+  color: white;
+}
+#send {
+  margin: auto;
+  width: 20%;
+  text-align: center;
+  font-size: 30px;
+  background-color: blueviolet;
+  color: white;
+  outline: none;
+  border: none;
+}
+
+/* for delete div */
+.delete__div {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin: 10px;
+  height: 12em;
+  overflow-y: auto;
+}
+.only__for__delete {
+  color: white;
+  margin-left: 20px;
+}
+.title__div {
+  margin: 5px;
+  padding: 5px;
+  width: 20%;
+  background-color: white;
+  height: 6vh;
+  border-radius: 5px;
+}
+.title__item {
+  font-weight: 400;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+}
+#deleteForm {
+}
+#delete {
+  color: white;
+  width: 40%;
+  outline: none;
+  border: none;
+}

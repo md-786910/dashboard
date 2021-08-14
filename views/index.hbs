@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./css/index.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+            integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="crossorigin="anonymous"
+            referrerpolicy="no-referrer" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Web Dashboard</title>
+        <link rel="shortcut icon" href="./image/logo.jpeg" type="image/x-icon">
+        <meta name="description" content="All Website code , Hosting name and
+            All cloud domain file">
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="both__div">
+                <div class="left__aside__header">
+                    <div class="logo">
+                        <img src="./image/logo.jpeg" alt="">
+                    </div>
+                    <ul>
+                        <li id="das">
+                            <a href="/">
+                                <i class="fa fa-suitcase"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/search">
+                                <i class="fa fa-th"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/login">
+                                <i class="fa fa-chart-line w"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/setting">
+                                <i class="fa fa-cog"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="date__time">
+                        <p style="text-align:center;"> 2:31</p>
+                        <p style="text-align:center;">12nov</p>
+                    </div>
+                </div>
+                <!-- next div navbar -->
+                <div class="content__div">
+                    <div class="row__navbar">
+                        <div class="left__item">
+                            <p class="Date__item">Nov 11</p>
+                            <p class="Date__item" id="today">Today</p>
+                            <p class="Date__item" id="today13">Nov 13</p>
+                            <p class="Date__item" id="">
+                                <i class="fa fa-ellipsis-h"></i>
+                            </p>
+                        </div>
+                        <div class="right__item">
+                            <div class="admin__image">
+                                <img src="./image/logo.jpeg" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="divider"></div>
+                    <div class="divider"></div>
+                    <div class="divider"></div>
+
+                    <!-- add home project and latency here -->
+                    <div class="project">
+                        <h3 class="tag__web__h3">Web development project:</h3>
+                        <div class="card__related__work">
+                            <!-- apply next work -->
+                            {{#each data}}
+                            <div class="min__card">
+                                <div class="line">
+                                    <div class="line__color"
+                                        style="background-color:{{this.color}}">
+                                        .......
+                                    </div>
+                                </div>
+                                <div class="tick"
+                                    style="background-color:{{this.color}}">
+                                    <i class="fa fa-check">
+
+                                    </i>
+                                </div>
+                                <div class="content__cart">
+                                    <div class="project__heading">
+                                        <p style="color:{{this.color}}">
+                                            {{this.title}}
+                                        </p>
+                                    </div>
+                                    <div class="url">
+
+                                        <a href={{this.url}} target="_blank">
+                                            {{this.url}}
+                                        </a>
+
+                                    </div>
+                                    <div class="code"
+                                        style="background-color:{{this.color}}">
+                                        <p>
+                                            <a href="" download={{this.file}}>
+                                                get code
+                                            </a>
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            {{/each}}
+                            <!-- end -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="./js/client.js"></script>
+</html>
