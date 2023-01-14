@@ -3,10 +3,13 @@ const app = express()
 const hbs = require("hbs")
 const http = require("http")
 const path = require("path")
+const dotenv = require("dotenv")
 const mongoose = require("mongoose")
 const bodyParser = require("body-parser")
 const server = http.createServer(app)
 const port = 3000 || process.env.PORT
+
+dotenv.config({})
 
 //require mongo connection
 require("./mongoCon")
